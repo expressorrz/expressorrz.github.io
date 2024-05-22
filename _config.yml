@@ -276,9 +276,13 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
 scholar:
-  last_name: Zhong
-  first_name: [Ruirui]
+  last_name: Barquero
+  first_name: [German, G., Germán]
 
   style: apa
   locale: en
