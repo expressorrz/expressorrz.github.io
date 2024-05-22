@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-test test test test.
+A simple inline announcement.
