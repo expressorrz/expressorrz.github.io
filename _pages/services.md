@@ -2,7 +2,7 @@
 layout: page
 title: Services
 permalink: /services/
-description: A comprehensive list of your services.
+description: Some academic services.
 nav: true
 nav_order: 4
 ---
