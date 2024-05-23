@@ -170,7 +170,7 @@ disqus_shortname: Ruirui # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  News:
+  news:
     defaults:
       layout: post
     output: true
