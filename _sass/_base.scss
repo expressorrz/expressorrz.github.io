@@ -197,6 +197,11 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.profile img {
+  width: 100px; /* 设置图片宽度为200像素 */
+  height: auto; /* 高度自动调整以保持宽高比 */
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }
