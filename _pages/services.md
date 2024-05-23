@@ -17,7 +17,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_services = site.services | where: "category", category %}
+  {% assign categorized_services = site.data.services | where: "category", category %}
   {% assign sorted_services = categorized_services | sort: "importance" %}
   <!-- Generate cards for each service -->
   {% if page.horizontal %}
@@ -41,7 +41,7 @@ horizontal: false
 
 <!-- Display services without categories -->
 
-{% assign sorted_services = site.services | sort: "importance" %}
+{% assign sorted_services = site.data.services | sort: "importance" %}
 
   <!-- Generate cards for each service -->
 
@@ -54,12 +54,12 @@ horizontal: false
     {% endfor %}
     </div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for service in sorted_services %}
-      {% include services.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+{% else %}
+<div class="row row-cols-1 row-cols-md-3">
+  {% for service in sorted_services %}
+    {% include services.liquid %}
+  {% endfor %}
+</div>
+{% endif %}
 {% endif %}
 </div>
