@@ -6,9 +6,12 @@ nav: true
 nav_order: 4
 ---
 
-<!-- _pages/services.md -->
-<div class="publications">
+# Journal
 
-{% bibliography %}
+- Advanced Engineering Informatics
+- Concurrency and Computation: Practice and Experienc
+- Journal of Infrastructure, Policy and Development
 
-</div>
+# Conference
+
+- The 7th Asian Conference on Artificial Intelligence Technology, ACAIT 2023
