@@ -12,6 +12,7 @@ nav_order: 4
 ## Journal
 
 - Advanced Engineering Informatics
+- Neural Computing and Applications
 - Concurrency and Computation: Practice and Experience
 - Journal of Infrastructure, Policy and Development
 
