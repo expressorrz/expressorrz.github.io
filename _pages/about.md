@@ -5,11 +5,11 @@ permalink: /
 subtitle: <a href='#'>Zhejiang University</a>
 
 profile:
-  align: left
+  align: right
   image: pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>No.6 Kaiwu Yuan Building, Zijingang Campus</p>
+    <p>Zijingang Campus</p>
     <p>Hangzhou 310058, China</p>
 
 news: true # includes a list of news items
