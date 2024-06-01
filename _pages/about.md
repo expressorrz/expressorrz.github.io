@@ -21,6 +21,6 @@ I am a Ph.D. student at <a href="http://sklofp.zju.edu.cn/skl/"><i>State Key Lab
 
 In 2021, I graduated in <i>Process Equipment and Control Engineering</i> from <a href="https://sme.jiangnan.edu.cn/">Jiangnan University</a>.
 
-<blockquote>
-  "From tomorrow on, be a happy man, chop wood, feed horses, and travel the world."
+<blockquote style="font-size:12px;">
+  "Logic will get you from A to B. Imagination will take you everywhere." -- Albert Einstein
 </blockquote>
