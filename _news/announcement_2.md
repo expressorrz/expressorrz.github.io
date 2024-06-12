@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A paper about fault diagnosis has been accepted by IET Collaborative Intelligent Manufacturing~:sparkles: :smile:
+A paper about fault diagnosis has been accepted by _IET Collaborative Intelligent Manufacturing_~:sparkles: :smile:

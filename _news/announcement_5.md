@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper "A Federated Deep Domain Adaptation-based Framework for Nuclear Power Steam Turbines Considering Privacy-Preserving" has been accepted by IET Collaborative Intelligent Manufacturing~🎉
+Paper "A Federated Deep Domain Adaptation-based Framework for Nuclear Power Steam Turbines Considering Privacy-Preserving" has been accepted by _IET Collaborative Intelligent Manufacturing_~😁
