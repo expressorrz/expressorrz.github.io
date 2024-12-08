@@ -1,26 +1,25 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-subtitle: <a href='#'>Zhejiang University</a>
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: pic.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Zijingang Campus</p>
-    <p>Hangzhou 310058, China</p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student at <a href="http://sklofp.zju.edu.cn/skl/"><i>State Key Laboratory of Fluid Power and Mechatronic Systems</i></a>, <a hef="https://www.zju.edu.cn/"><i>Zhejiang University</i></a> in <a href="https://baike.baidu.com/item/%E6%9D%AD%E5%B7%9E%E5%B8%82/200167">Hangzhou 310027, China</a>,  where he is supervised by Prof. Yixiong Feng. From November 2024, I have been conducting a one-year visiting Ph.D. study at the IPU Department of Production Engineering, KTH Royal Institute of Technology, under the supervision of Prof. Xi Wang and Prof. Lihui Wang. My research interests fucous on <i>Human-robot Colaboration</i>, <i>Digital Twin</i>, and <i>Human-Cyber-Physical Systems</i>.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-In 2021, I graduated in <i>Process Equipment and Control Engineering</i> from <a href="https://sme.jiangnan.edu.cn/">Jiangnan University</a>.
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-<blockquote style="font-size:16px;">
-  "Logic will get you from A to B. Imagination will take you everywhere." -- Albert Einstein
-</blockquote>
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
