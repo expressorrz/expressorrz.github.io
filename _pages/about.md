@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there! I am Ruirui Zhong, a Ph.D. student at State Key Laboratory of Fluid Power and Mechatronic Systems, [Zhejiang University](https://www.zju.edu.cn/) in Hangzhou, China, where I am supervised by Prof. Yixiong Feng. From November 2024, I have been conducting a visiting Ph.D. study at the IPU Department of Production Engineering, [KTH Royal Institute of Technology](https://www.kth.se/), under the supervision of Prof. Xi Wang and Prof. Lihui Wang.
+Hi there! I am Ruirui Zhong, a Ph.D. student at _State Key Laboratory of Fluid Power and Mechatronic Systems_, [_Zhejiang University_](https://www.zju.edu.cn/) in Hangzhou, China, where I am supervised by Prof. **Yixiong Feng**. From November 2024, I have been conducting a visiting Ph.D. study at the _IPU Department of Production Engineering_, [_KTH Royal Institute of Technology_](https://www.kth.se/), under the supervision of Prof. **Xi Wang** and **Prof. Lihui Wang**. My research interests focus on _Human-robot Collaboration_, _Digital Twin_, and _Smart Manufacturing_.
 
 Here is my education experience:
 
