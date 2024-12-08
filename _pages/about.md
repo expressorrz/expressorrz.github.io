@@ -17,7 +17,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-In 2021, I graduated in <i>Process Equipment and Control Engineering</i> from <a href="https://sme.jiangnan.edu.cn/">Jiangnan University</a>.
+Hi there! I am Ruirui Zhong, a Ph.D. student at State Key Laboratory of Fluid Power and Mechatronic Systems, [Zhejiang University](https://www.zju.edu.cn/) in Hangzhou, China, where I am supervised by Prof. Yixiong Feng. From November 2024, I have been conducting a visiting Ph.D. study at the IPU Department of Production Engineering, [KTH Royal Institute of Technology](https://www.kth.se/), under the supervision of Prof. Xi Wang and Prof. Lihui Wang.
+
+Here is my education experience:
+
+- Ph.D in Mechanical Engineering, Zhejiang University, China, 2021~
+
+- Visiting Ph.D. Student in Product Engineering, KTH Royal Institute of Technology, Sweden, 2024~
+
+- BEng in Process Equipment and Control Engineering, Jiangnan University, China, 2017~2021
 
 <blockquote style="font-size:16px;">
   "Logic will get you from A to B. Imagination will take you everywhere." -- Albert Einstein
