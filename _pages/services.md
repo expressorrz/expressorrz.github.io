@@ -22,7 +22,7 @@ nav_order: 4
 **Served as a reviewer for:**
 
 - _Robotics and Computer-Integrated Manufacturing_
-  _Advanced Engineering Informatics_
+- _Advanced Engineering Informatics_
 - _Neural Computing and Applications_
 - _Concurrency and Computation: Practice and Experience_
 - _Journal of Infrastructure, Policy and Development_
