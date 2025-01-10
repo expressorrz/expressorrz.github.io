@@ -21,10 +21,13 @@ nav_order: 4
 
 **Served as a reviewer for:**
 
-- _Advanced Engineering Informatics_
+- _Robotics and Computer-Integrated Manufacturing_
+  _Advanced Engineering Informatics_
 - _Neural Computing and Applications_
 - _Concurrency and Computation: Practice and Experience_
 - _Journal of Infrastructure, Policy and Development_
+- _SME NAMRC 53_
+- _IFAC MIM 2025_
 - _IEEE ICNSC 2024_
 - _ACAIT 2023_
 
@@ -35,9 +38,12 @@ nav_order: 4
 - _IEEE Transactions on Automation Science and Engineering_
 - _Expert System with Applications_
 - _International Journal of Production Research_
+- _Applied Intelligence_
 - _Flexible Services and Manufacturing Journal_
+- _Nuclear Engineering and Design_
 - _Computer Methods and Programs in Biomedicine_
 - _Journal of Mechanical Engineering_
+- _Computer Integrated Manufacturing System_
 
 ---
 
