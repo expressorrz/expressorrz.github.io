@@ -1,5 +1,5 @@
-# npx prettier --check .
-# npx prettier --write .
+npx prettier --check .
+npx prettier --write .
 
 git add .
 git commit -m "update"
