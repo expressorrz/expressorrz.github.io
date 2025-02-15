@@ -33,9 +33,11 @@ nav_order: 4
 
 **Served on behalf of mentor as a reviewer for:**
 
+- _IEEE Transactions on Cybernetics_
 - _IEEE Transactions on Industrial Informatics_
 - _IEEE Internet of Things Journal_
 - _IEEE Transactions on Automation Science and Engineering_
+- _IEEE Transactions on Human-Machine Systems_
 - _Expert System with Applications_
 - _International Journal of Production Research_
 - _Applied Intelligence_
