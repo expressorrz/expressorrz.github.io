@@ -15,7 +15,7 @@ nav_order: 4
 
 • **Visiting Ph.D. Student in Product Engineering**, KTH Royal Institute of Technology, Sweden (2024 – Present)
 
-• **Bachelor of Engineering in Process Equipment and Control Engineering**, Jiangnan University, China (2017 – 2021)
+• **B.Eng in Process Equipment and Control Engineering**, Jiangnan University, China (2017 – 2021)
 
 ## Peer Reviewer Service
 
