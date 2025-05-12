@@ -21,11 +21,16 @@ nav_order: 4
 
 **Served as a reviewer for:**
 
+- _IEEE Transactions on Industrial Informatics_
 - _Robotics and Computer-Integrated Manufacturing_
 - _Advanced Engineering Informatics_
+- _International Journal of Production Research_
+- _Nonlinear Dynamics_
+- _The Journal of Supercomputing_
 - _Neural Computing and Applications_
 - _Concurrency and Computation: Practice and Experience_
 - _Journal of Infrastructure, Policy and Development_
+- _IEEE CASE 2025_
 - _SME NAMRC 53_
 - _IFAC MIM 2025_
 - _IEEE ICNSC 2024_
@@ -34,12 +39,11 @@ nav_order: 4
 **Served on behalf of mentor as a reviewer for:**
 
 - _IEEE Transactions on Cybernetics_
-- _IEEE Transactions on Industrial Informatics_
 - _IEEE Internet of Things Journal_
 - _IEEE Transactions on Automation Science and Engineering_
 - _IEEE Transactions on Human-Machine Systems_
 - _Expert System with Applications_
-- _International Journal of Production Research_
+- _Journal of Engineering Design_
 - _Applied Intelligence_
 - _Flexible Services and Manufacturing Journal_
 - _Nuclear Engineering and Design_
