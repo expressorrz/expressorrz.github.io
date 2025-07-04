@@ -1,0 +1,167 @@
+:root {
+	--grey: rgb(90, 90, 90);
+	/* Columbia Blues: https://visualidentity.columbia.edu/content/colors-1 */
+	--blue1: rgb(2,33,105);
+	--blue2: rgb(0,51,160);
+	--blue3: rgb(0,114,206);
+	--blue4: rgb(108,172,228);
+	--pink1: #F9564F;
+ }
+
+html, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: var(--grey);
+}
+p{
+    margin: 0.2em;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:  var(--pink1);
+}
+
+i {
+    font-style: italic;
+}
+
+h1 {
+    font-weight: 600;
+    color: var(--blue1);
+}
+
+h2 {
+    font-weight: 400;
+    color: var(--blue1);
+}
+
+b {
+    font-weight: 600;
+}
+
+strong {
+    color: #66b0f9;
+    font-weight: 600;
+}
+
+/**************************************************/
+
+#header {
+    height: 2em;
+    line-height: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 50% - 500px;
+    z-index: 9999;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+}
+
+#header a {
+    text-decoration: none;
+    color: var(--grey);
+    transition: color 0.3s ease;
+}
+
+#header a:hover {
+    color: var(--pink1);
+}
+
+/**************************************************/
+
+#profile {
+    padding: 90px 30px 10px 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+#profile-pic {
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+}
+
+#profile img {
+    width: 400px;
+    margin-bottom: 18px;
+}
+
+#profile-name {
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--blue1);
+    text-align: center;
+}
+
+
+#profile-email {
+    margin-bottom: 20px;
+    color: var(--blue1);
+    text-align: center;
+}
+
+#profile p {
+    margin-bottom: 20px;
+}
+
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.research-thumb {
+    width: 8em;
+    height: 8em;
+    float: left;
+    margin-top: 7px;
+    padding-right: 30px;
+    margin-bottom: 0;
+}
+
+.research-thumb img {
+    width: 100%;
+}
+
+.research-proj-title {
+    color: var(--blue1);
+    font-weight: 600;
+}
+
+.research-journal-title {
+    font-style: italic;
+}
+
+.research-paper {
+    padding: 1em;
+    margin: 0;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    height: 7em;
+}
+
+.research-paper:nth-child(even) {
+    background-color: #e8e9e9;
+}
