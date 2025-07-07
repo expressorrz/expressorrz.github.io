@@ -510,9 +510,20 @@
         document.addEventListener('DOMContentLoaded', function() {
             var images = document.querySelectorAll('.research-thumb img');
             images.forEach(function(img) {
-                img.onclick = function() {
+                // 将图片包装在一个链接中
+                if (!img.parentElement.matches('a')) {
+                    var wrapper = document.createElement('a');
+                    wrapper.href = 'javascript:void(0);';
+                    img.parentNode.insertBefore(wrapper, img);
+                    wrapper.appendChild(img);
+                }
+                
+                img.onclick = function(e) {
+                    e.preventDefault(); // 阻止默认行为
+                    e.stopPropagation(); // 阻止事件冒泡
                     modal.style.display = "block";
                     modalImg.src = this.src;
+                    return false;
                 }
             });
         });
