@@ -139,7 +139,6 @@ strong {
     margin-top: 7px;
     padding-right: 30px;
     margin-bottom: 0;
-    position: relative;
 }
 
 .research-thumb a {
@@ -150,13 +149,6 @@ strong {
 
 .research-thumb img {
     width: 100%;
-    cursor: pointer;
-    transition: 0.3s;
-    pointer-events: auto;
-}
-
-.research-thumb img:hover {
-    opacity: 0.7;
 }
 
 .research-proj-title {
