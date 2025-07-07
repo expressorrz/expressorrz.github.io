@@ -57,7 +57,7 @@ b {
 }
 
 strong {
-    color: #66b0f9;
+    color: #0461bf;
     font-weight: 600;
 }
 
@@ -143,6 +143,12 @@ strong {
 
 .research-thumb img {
     width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.research-thumb img:hover {
+    opacity: 0.7;
 }
 
 .research-proj-title {
@@ -164,4 +170,54 @@ strong {
 
 .research-paper:nth-child(even) {
     background-color: #e8e9e9;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 70%;
+    max-height: 70vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.modal-content {
+    animation-name: zoom;
+    animation-duration: 0.4s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }

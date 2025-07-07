@@ -10,6 +10,12 @@
 </head>
 
 <body>
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
     <div style="width:1000px;margin: 0px auto;">
         <header id="header" width="400px" style="display:flex;justify-content: space-around;">
             <a href="#profile-intro">Home</a>
@@ -130,7 +136,7 @@
 
             <div class="research-paper">
                 <a class="research-thumb">
-                    <img width="320" src="assets/images/fedmamba.png" alt="">
+                    <img width="320" src="assets/images/fedmamba.jpg" alt="">
                 </a>
                 <a href="https://doi.org/10.1080/00207543.2024.2448604" class="research-proj-title">
                     Toward secure industrial internet of behaviours: a federated learning-based lightweight human behaviour recognition method with selective state space models
@@ -150,7 +156,7 @@
 
             <div class="research-paper">
                 <a class="research-thumb">
-                    <img width="320" src="assets/images/programming.png" alt="">
+                    <img width="320" src="assets/images/programming.jpg" alt="">
                 </a>
                 <a href="https://doi.org/10.1109/JIOT.2025.3567149" class="research-proj-title">
                     Hybrid Programming-based Scheduling Approach for Many Heterogeneous Computing Tasks with Asynchronous Generation in IIoT
@@ -169,7 +175,7 @@
             </div>
             <div class="research-paper">
                 <a class="research-thumb">
-                    <img width="320" src="assets/images/liquid_metal.png" alt="">
+                    <img width="320" src="assets/images/am.jpg" alt="">
                 </a>
                 <a href="https://doi.org/10.1002/adma.202414519" class="research-proj-title">
                     Magnetointeractive Cr2Te3-Coated Liquid Metal Droplets for Flexible Memory Arrays and Wearable Sensors
@@ -464,6 +470,7 @@
                     <li>• <i>Advanced Engineering Informatics</i></li>
                     <li>• <i>International Journal of Production Research</i></li>
                     <li>• <i>Nonlinear Dynamics</i></li>
+                    <li>• <i>Chinese Journal of Mechanical Engineering</i></li>
                     <li>• <i>The Journal of Supercomputing</i></li>
                     <li>• <i>Neural Computing and Applications</i></li>
                 </ul>
@@ -492,6 +499,43 @@
             <li>• <i>XXX</i></li>
         </ul>
     </div> -->
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("imageModal");
+        var modalImg = document.getElementById("modalImg");
+        var span = document.getElementsByClassName("close")[0];
+
+        // Add click event to all research thumbnail images
+        document.addEventListener('DOMContentLoaded', function() {
+            var images = document.querySelectorAll('.research-thumb img');
+            images.forEach(function(img) {
+                img.onclick = function() {
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                }
+            });
+        });
+
+        // Close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // Close when clicking outside the image
+        modal.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Close on escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape") {
+                modal.style.display = "none";
+            }
+        });
+    </script>
 </body>
 
 </html>
